@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://occ-0-300-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXSUYqf7evT0WTIbmuR6ImjmtVlPvybxEKQ_-xth1Zse6RsHfhFsLN6O4SsJbYGMuRxzUDFCWPdj02bOlawF1iCl9W3Xx5vjWHD1rTQKXfmzhiap5V-lZkhRDlDEugGeKUC9kuzunWKMXE8kPt_aZndIMfmZzmmjQ6GIGAYPcaPMqG1jJ98NhN0MpGmtxSs1OhBaKaXKRc_fFKcJy0_4fzXxv4ZQYkEWEnHkcw0RNtnFWA38swUj5u-UFJ95qyuFYAAUgrmPakH5Zkw1OIMP8iRScUh2RJsNfnMo7pf6lrtt4Pv4X-8J-BOj7PeXli0wLopL.jpg?r=95f");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-family: "Alkatra", cursive;
+  color: white;
+  text-shadow: 1.5px 1.5px #00000099;
+  font-size: 64px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+li {
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.member {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heart {
+  position: absolute;
+  width: 20px;
+  height: auto;
+}
+
+
+#first-heart {
+  position: absolute;
+  top: 10px;
+}
+
+#second-heart {
+  position: absolute;
+  top: 30px;
+}
+
+#third-heart {
+  position: absolute;
+  top: 30px;
+}
+
+#fourth-heart {
+  position: absolute;
+  top: 30px;
+}
